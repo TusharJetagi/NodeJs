@@ -10,6 +10,7 @@ const menuItemRoutes = require("./routes/menuItemsRoutes");
 app.use("/person", personRoutes);
 app.use("/menu", menuItemRoutes);
 
+// start the server
 app.listen(3000, () => {
   console.log("Listening on port 3000");
 });
